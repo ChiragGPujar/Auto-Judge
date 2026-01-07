@@ -23,6 +23,7 @@ The prediction is based solely on problem text (description, input, output), wit
      pip install pandas numpy scikit-learn joblib streamlit
 
 Running the Project
+
 Step 1 : Train the models (acm_classifier.ipynb)
 
 This Step:
@@ -35,6 +36,8 @@ This Step:
 Step 2 : Launch Web Application
 
 This web app loads the saved models and performs inference only
+
+Run this in the Command Prompt and make sure the working directory is the same as the cloned file.
 
   ```bash
   streamlit run app.py
